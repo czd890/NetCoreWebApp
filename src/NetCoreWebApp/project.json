@@ -23,7 +23,10 @@
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
     "Microsoft.Extensions.Configuration.CommandLine": "1.0.0",
     "NetCoreApp.Logger.File": "1.0.0-*",
-    "System.Text.Encoding.CodePages": "4.0.1"
+    "System.Text.Encoding.CodePages": "4.0.1",
+    "Autofac": "4.0.0-rc3-309",
+    "Autofac.Extensions.DependencyInjection": "4.0.0-rc3-309",
+    "AutoMapper": "5.0.2"
   },
 
   "tools": {

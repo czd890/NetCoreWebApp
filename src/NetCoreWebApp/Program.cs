@@ -15,7 +15,7 @@ namespace NetCoreWebApp
         {
 
             //args
-            //--server.urls="http://localhost:5000/"
+            //dotnet NetCoreWebApp.dll --server.urls="http://localhost:5000/;http://localhost:5001/"
             var config = new ConfigurationBuilder()
                 .AddCommandLine(args)
                 .Build();
