@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27FD4CA6-58E6-4A77-A4A4-235584780305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8EEA05C-1F7E-459C-A925-5B23C240D7B0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreWebApp", "src\NetCoreWebApp\NetCoreWebApp.xproj", "{61604E42-0CDB-4B8A-82E1-32A8C87DB979}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreApp.Logger.File", "src\NetCoreApp.Logger.File\NetCoreApp.Logger.File.xproj", "{03616715-5482-4F5C-921B-A4DDA9793DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61604E42-0CDB-4B8A-82E1-32A8C87DB979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61604E42-0CDB-4B8A-82E1-32A8C87DB979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61604E42-0CDB-4B8A-82E1-32A8C87DB979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61604E42-0CDB-4B8A-82E1-32A8C87DB979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03616715-5482-4F5C-921B-A4DDA9793DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03616715-5482-4F5C-921B-A4DDA9793DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03616715-5482-4F5C-921B-A4DDA9793DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03616715-5482-4F5C-921B-A4DDA9793DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61604E42-0CDB-4B8A-82E1-32A8C87DB979} = {27FD4CA6-58E6-4A77-A4A4-235584780305}
+		{03616715-5482-4F5C-921B-A4DDA9793DDC} = {27FD4CA6-58E6-4A77-A4A4-235584780305}
+	EndGlobalSection
+EndGlobal
