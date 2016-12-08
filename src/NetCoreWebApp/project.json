@@ -20,9 +20,13 @@
     "Microsoft.Extensions.Logging.Console": "1.1.0",
     "Microsoft.Extensions.Logging.Debug": "1.1.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0",
-    "Microsoft.NETCore.App": "1.1.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.1.0"
+    },
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0",
-    "System.Text.Encoding.CodePages": "4.3.0"  },
+    "System.Text.Encoding.CodePages": "4.3.0"
+  },
 
   "tools": {
     "Microsoft.AspNetCore.Razor.Tools": "1.0.0-preview2-final",

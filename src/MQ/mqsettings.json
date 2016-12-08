@@ -1,0 +1,27 @@
+﻿{
+  "Hosts": [
+    {
+      "Name": "default",
+      "UserName": "user",
+      "UserPassword": "user",
+      "Address": "192.168.50.2",
+      "Port": 5672,
+      "VHost": "/",
+      "Heartbeat": 60,
+      "AutoRecovery": true
+    }
+  ],
+  "Products": [
+    {
+      "Id": "produt",
+      "Host": "default"
+    },
+    {
+      "Id": "produtid",
+      "Host": "default"
+    },
+    {
+      "Id": "productid"
+    }
+  ]
+}
