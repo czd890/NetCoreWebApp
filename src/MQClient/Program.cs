@@ -58,6 +58,7 @@ namespace MQClient
                 return true;
             });
 
+
             //广播方式
             EventBus.Subscribe<DateTime>("produt", "guangbo", message =>
             {
